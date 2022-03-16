@@ -1,60 +1,60 @@
 [ {
-  "uid" : "8b863687cd22566a",
+  "uid" : "b767bfe229b4b416",
+  "name" : "Test Visit Date - Close Date Picker",
+  "time" : {
+    "start" : 1647421911390,
+    "stop" : 1647421919250,
+    "duration" : 7860
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e41d1db3f1546845",
+  "name" : "Test Time Slot - Select Checkbox",
+  "time" : {
+    "start" : 1647421927759,
+    "stop" : 1647421934710,
+    "duration" : 6951
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6be8ee2e3fee94a",
+  "name" : "Test Visit Date - Default Date",
+  "time" : {
+    "start" : 1647421875057,
+    "stop" : 1647421884003,
+    "duration" : 8946
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "15fd04adc06d378e",
   "name" : "Test Visit Date - Clear Date",
   "time" : {
-    "start" : 1647421709717,
-    "stop" : 1647421727486,
-    "duration" : 17769
+    "start" : 1647421892201,
+    "stop" : 1647421911330,
+    "duration" : 19129
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "dd90c9fbe6827bfd",
-  "name" : "Test Time Slot - Select Checkbox",
-  "time" : {
-    "start" : 1647421744425,
-    "stop" : 1647421751484,
-    "duration" : 7059
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "904da2bdbc342eb3",
-  "name" : "Test Visit Date - Select Date Picker",
-  "time" : {
-    "start" : 1647421735238,
-    "stop" : 1647421744245,
-    "duration" : 9007
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3903042b300331fc",
-  "name" : "Test Visit Date - Default Date",
-  "time" : {
-    "start" : 1647421691763,
-    "stop" : 1647421701018,
-    "duration" : 9255
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "16d183b66b86a06c",
+  "uid" : "9efc421bd0070328",
   "name" : "Test Visit Date - Today Date",
   "time" : {
-    "start" : 1647421701087,
-    "stop" : 1647421709598,
-    "duration" : 8511
+    "start" : 1647421884105,
+    "stop" : 1647421892109,
+    "duration" : 8004
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3ab6296853f735c9",
-  "name" : "Test Visit Date - Close Date Picker",
+  "uid" : "8ad35816b2738a80",
+  "name" : "Test Visit Date - Select Date Picker",
   "time" : {
-    "start" : 1647421727567,
-    "stop" : 1647421735200,
-    "duration" : 7633
+    "start" : 1647421919325,
+    "stop" : 1647421927580,
+    "duration" : 8255
   },
   "status" : "passed",
   "severity" : "normal"
