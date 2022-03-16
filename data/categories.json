@@ -6,13 +6,13 @@
       "name" : "Timed out retrying after 10000ms: expected '' to equal '17/03/2022'",
       "children" : [ {
         "name" : "Test Visit Date - Clear Date",
-        "uid" : "f5e30cde72472961",
+        "uid" : "49c6f78213fd0a49",
         "parentUid" : "7d0e7f885c24d88741ab506c7a44db3e",
         "status" : "failed",
         "time" : {
-          "start" : 1647426997343,
-          "stop" : 1647427016914,
-          "duration" : 19571
+          "start" : 1647427164548,
+          "stop" : 1647427182723,
+          "duration" : 18175
         },
         "flaky" : false,
         "newFailed" : false,

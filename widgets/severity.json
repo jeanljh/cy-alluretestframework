@@ -1,60 +1,60 @@
 [ {
-  "uid" : "eca79da82c4276e2",
-  "name" : "Test Time Slot - Select Checkbox",
+  "uid" : "243e6af48c605762",
+  "name" : "Test Visit Date - Today Date",
   "time" : {
-    "start" : 1647427034687,
-    "stop" : 1647427041742,
-    "duration" : 7055
+    "start" : 1647427159340,
+    "stop" : 1647427164472,
+    "duration" : 5132
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f5e30cde72472961",
+  "uid" : "a7ea19c9b1b46edd",
+  "name" : "Test Time Slot - Select Checkbox",
+  "time" : {
+    "start" : 1647427193553,
+    "stop" : 1647427197823,
+    "duration" : 4270
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7f7738e361195ce7",
+  "name" : "Test Visit Date - Close Date Picker",
+  "time" : {
+    "start" : 1647427182760,
+    "stop" : 1647427187944,
+    "duration" : 5184
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41f5a9b891ad5ecf",
+  "name" : "Test Visit Date - Select Date Picker",
+  "time" : {
+    "start" : 1647427188005,
+    "stop" : 1647427193390,
+    "duration" : 5385
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "49c6f78213fd0a49",
   "name" : "Test Visit Date - Clear Date",
   "time" : {
-    "start" : 1647426997343,
-    "stop" : 1647427016914,
-    "duration" : 19571
+    "start" : 1647427164548,
+    "stop" : 1647427182723,
+    "duration" : 18175
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "e18c5787bb3b1eb0",
-  "name" : "Test Visit Date - Close Date Picker",
-  "time" : {
-    "start" : 1647427017072,
-    "stop" : 1647427025264,
-    "duration" : 8192
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "78b0858709bf889c",
-  "name" : "Test Visit Date - Today Date",
-  "time" : {
-    "start" : 1647426988822,
-    "stop" : 1647426997240,
-    "duration" : 8418
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a5e8d7efaba6c6df",
-  "name" : "Test Visit Date - Select Date Picker",
-  "time" : {
-    "start" : 1647427025332,
-    "stop" : 1647427034571,
-    "duration" : 9239
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6b988ff9c84149e4",
+  "uid" : "f996525a086f69f5",
   "name" : "Test Visit Date - Default Date",
   "time" : {
-    "start" : 1647426978224,
-    "stop" : 1647426988643,
-    "duration" : 10419
+    "start" : 1647427150254,
+    "stop" : 1647427159264,
+    "duration" : 9010
   },
   "status" : "passed",
   "severity" : "normal"
