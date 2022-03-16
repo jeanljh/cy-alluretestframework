@@ -32,6 +32,7 @@ jobs:
         uses: cypress-io/github-action@v2.9.7
         with:
           browser: chrome
+        continue-on-error: true
       
 #       - name: Run Cypress tests
 #         run: npm run test
