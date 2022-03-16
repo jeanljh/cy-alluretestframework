@@ -1,0 +1,44 @@
+name: CI
+
+on:
+  push:
+    branches: master
+  pull_request:
+    branches: master
+
+  workflow_dispatch:
+  
+jobs:
+  cypress-run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3.0.0
+        
+      - name: Install a project with a clean slate
+        run: |
+          npm ci
+          $(npm bin)/cypress cache path
+          $(npm bin)/cypress cache list
+          $(npm bin)/cypress verify
+          
+      - name: Remove Allure result files
+        uses: JesseTG/rm@v1.0.2
+        with:
+          path: ./allure-results
+      
+      - name: Run Cypress tests
+        run: npm run test
+        continue-on-error: true
+      
+      - name: Generate Allure report
+        run: npm run allure:report
+        
+      - name: Deploy report to GitHub pages
+        uses: peaceiris/actions-gh-pages@v3.7.3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./allure-report
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
