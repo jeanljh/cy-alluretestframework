@@ -1,10 +1,60 @@
 [ {
-  "uid" : "e97b56cb4ae63c43",
+  "uid" : "6f8fb7d87b706dc9",
+  "name" : "Test Visit Date - Select Date Picker",
+  "time" : {
+    "start" : 1647421122887,
+    "stop" : 1647421130478,
+    "duration" : 7591
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fcbabcc765a299c3",
+  "name" : "Test Visit Date - Close Date Picker",
+  "time" : {
+    "start" : 1647421115678,
+    "stop" : 1647421122839,
+    "duration" : 7161
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8fff51dd269ba317",
+  "name" : "Test Visit Date - Default Date",
+  "time" : {
+    "start" : 1647421091517,
+    "stop" : 1647421100281,
+    "duration" : 8764
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41bf27c576fa5cca",
+  "name" : "Test Visit Date - Today Date",
+  "time" : {
+    "start" : 1647421100348,
+    "stop" : 1647421108025,
+    "duration" : 7677
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "605f51b64191151b",
+  "name" : "Test Time Slot - Select Checkbox",
+  "time" : {
+    "start" : 1647421130622,
+    "stop" : 1647421137193,
+    "duration" : 6571
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c565fd264c64abc0",
   "name" : "Test Visit Date - Clear Date",
   "time" : {
-    "start" : 1647420820749,
-    "stop" : 1647420830286,
-    "duration" : 9537
+    "start" : 1647421108109,
+    "stop" : 1647421115585,
+    "duration" : 7476
   },
   "status" : "passed",
   "severity" : "normal"
