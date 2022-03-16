@@ -2,13 +2,13 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : "Test Visit Date - Default Date",
-    "uid" : "d3bf9a7b7f8e24c1",
+    "uid" : "3903042b300331fc",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1647421465117,
-      "stop" : 1647421473994,
-      "duration" : 8877
+      "start" : 1647421691763,
+      "stop" : 1647421701018,
+      "duration" : 9255
     },
     "flaky" : false,
     "newFailed" : false,
@@ -19,13 +19,13 @@
     "parameters" : [ ]
   }, {
     "name" : "Test Visit Date - Today Date",
-    "uid" : "cee00aa86094c569",
+    "uid" : "16d183b66b86a06c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1647421474074,
-      "stop" : 1647421482878,
-      "duration" : 8804
+      "start" : 1647421701087,
+      "stop" : 1647421709598,
+      "duration" : 8511
     },
     "flaky" : false,
     "newFailed" : false,
@@ -36,13 +36,13 @@
     "parameters" : [ ]
   }, {
     "name" : "Test Visit Date - Clear Date",
-    "uid" : "28974a532fa4009",
+    "uid" : "8b863687cd22566a",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1647421482969,
-      "stop" : 1647421500937,
-      "duration" : 17968
+      "start" : 1647421709717,
+      "stop" : 1647421727486,
+      "duration" : 17769
     },
     "flaky" : false,
     "newFailed" : false,
@@ -53,13 +53,13 @@
     "parameters" : [ ]
   }, {
     "name" : "Test Visit Date - Close Date Picker",
-    "uid" : "d966b50be4b033ce",
+    "uid" : "3ab6296853f735c9",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1647421501009,
-      "stop" : 1647421508488,
-      "duration" : 7479
+      "start" : 1647421727567,
+      "stop" : 1647421735200,
+      "duration" : 7633
     },
     "flaky" : false,
     "newFailed" : false,
@@ -70,13 +70,13 @@
     "parameters" : [ ]
   }, {
     "name" : "Test Visit Date - Select Date Picker",
-    "uid" : "6a1b45e48dbfdb14",
+    "uid" : "904da2bdbc342eb3",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1647421508538,
-      "stop" : 1647421516836,
-      "duration" : 8298
+      "start" : 1647421735238,
+      "stop" : 1647421744245,
+      "duration" : 9007
     },
     "flaky" : false,
     "newFailed" : false,
@@ -87,13 +87,13 @@
     "parameters" : [ ]
   }, {
     "name" : "Test Time Slot - Select Checkbox",
-    "uid" : "9f5e7fbab4324754",
+    "uid" : "dd90c9fbe6827bfd",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1647421517016,
-      "stop" : 1647421524567,
-      "duration" : 7551
+      "start" : 1647421744425,
+      "stop" : 1647421751484,
+      "duration" : 7059
     },
     "flaky" : false,
     "newFailed" : false,

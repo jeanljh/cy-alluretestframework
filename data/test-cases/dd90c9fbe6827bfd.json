@@ -1,12 +1,12 @@
 {
-  "uid" : "9f5e7fbab4324754",
+  "uid" : "dd90c9fbe6827bfd",
   "name" : "Test Time Slot - Select Checkbox",
   "fullName" : "Test Time Slot - Select Checkbox",
   "historyId" : "03ecfbfa966dc2c7eaa22117b69007ef",
   "time" : {
-    "start" : 1647421517016,
-    "stop" : 1647421524567,
-    "duration" : 7551
+    "start" : 1647421744425,
+    "stop" : 1647421751484,
+    "duration" : 7059
   },
   "status" : "passed",
   "flaky" : false,
@@ -21,17 +21,17 @@
     "steps" : [ {
       "name" : "Visit /add_visit",
       "time" : {
-        "start" : 1647421517016,
-        "stop" : 1647421524295,
-        "duration" : 7279
+        "start" : 1647421744425,
+        "stop" : 1647421751173,
+        "duration" : 6748
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "intercept (\"https://app.genesiscare.com.my/frg\")",
         "time" : {
-          "start" : 1647421517750,
-          "stop" : 1647421517752,
-          "duration" : 2
+          "start" : 1647421744581,
+          "stop" : 1647421744589,
+          "duration" : 8
         },
         "status" : "passed",
         "steps" : [ ],
@@ -44,8 +44,8 @@
       }, {
         "name" : "as (\"frg\")",
         "time" : {
-          "start" : 1647421517752,
-          "stop" : 1647421517752,
+          "start" : 1647421744589,
+          "stop" : 1647421744589,
           "duration" : 0
         },
         "status" : "passed",
@@ -59,9 +59,9 @@
       }, {
         "name" : "visit https://app.genesiscare.com.my/add_visit",
         "time" : {
-          "start" : 1647421517752,
-          "stop" : 1647421519071,
-          "duration" : 1319
+          "start" : 1647421744589,
+          "stop" : 1647421745736,
+          "duration" : 1147
         },
         "status" : "passed",
         "steps" : [ ],
@@ -74,8 +74,8 @@
       }, {
         "name" : "GET https://app.genesiscare.com.my/api/1.1/init/data?location=https://app.genesiscare.com.my/add_visit",
         "time" : {
-          "start" : 1647421519071,
-          "stop" : 1647421519071,
+          "start" : 1647421745736,
+          "stop" : 1647421745736,
           "duration" : 0
         },
         "status" : "passed",
@@ -87,10 +87,10 @@
         "shouldDisplayMessage" : false,
         "hasContent" : false
       }, {
-        "name" : "GET 200 /api/1.1/init/data?location=https%3A%2F%2Fapp.genesiscare.com.my%2Fadd_visit",
+        "name" : "GET /api/1.1/init/data?location=https%3A%2F%2Fapp.genesiscare.com.my%2Fadd_visit",
         "time" : {
-          "start" : 1647421519071,
-          "stop" : 1647421519071,
+          "start" : 1647421745736,
+          "stop" : 1647421745736,
           "duration" : 0
         },
         "status" : "passed",
@@ -104,9 +104,9 @@
       }, {
         "name" : "wait @frg",
         "time" : {
-          "start" : 1647421519071,
-          "stop" : 1647421524294,
-          "duration" : 5223
+          "start" : 1647421745736,
+          "stop" : 1647421751173,
+          "duration" : 5437
         },
         "status" : "passed",
         "steps" : [ ],
@@ -119,8 +119,8 @@
       }, {
         "name" : "POST /bug/client_log",
         "time" : {
-          "start" : 1647421524294,
-          "stop" : 1647421524294,
+          "start" : 1647421751172,
+          "stop" : 1647421751172,
           "duration" : 0
         },
         "status" : "passed",
@@ -134,8 +134,8 @@
       }, {
         "name" : "POST /bug/client_log",
         "time" : {
-          "start" : 1647421524294,
-          "stop" : 1647421524294,
+          "start" : 1647421751173,
+          "stop" : 1647421751173,
           "duration" : 0
         },
         "status" : "passed",
@@ -147,10 +147,10 @@
         "shouldDisplayMessage" : false,
         "hasContent" : false
       }, {
-        "name" : "POST /elasticsearch/search",
+        "name" : "POST 200 /elasticsearch/search",
         "time" : {
-          "start" : 1647421524294,
-          "stop" : 1647421524294,
+          "start" : 1647421751173,
+          "stop" : 1647421751173,
           "duration" : 0
         },
         "status" : "passed",
@@ -164,8 +164,8 @@
       }, {
         "name" : "POST 200 /user/hi",
         "time" : {
-          "start" : 1647421524294,
-          "stop" : 1647421524294,
+          "start" : 1647421751173,
+          "stop" : 1647421751173,
           "duration" : 0
         },
         "status" : "passed",
@@ -177,10 +177,10 @@
         "shouldDisplayMessage" : false,
         "hasContent" : false
       }, {
-        "name" : "POST 200 /elasticsearch/msearch",
+        "name" : "POST 200 /elasticsearch/mget",
         "time" : {
-          "start" : 1647421524294,
-          "stop" : 1647421524294,
+          "start" : 1647421751173,
+          "stop" : 1647421751173,
           "duration" : 0
         },
         "status" : "passed",
@@ -194,8 +194,8 @@
       }, {
         "name" : "POST 200 /user/m",
         "time" : {
-          "start" : 1647421524294,
-          "stop" : 1647421524294,
+          "start" : 1647421751173,
+          "stop" : 1647421751173,
           "duration" : 0
         },
         "status" : "passed",
@@ -209,8 +209,8 @@
       }, {
         "name" : "POST 200 /elasticsearch/bulk_watch",
         "time" : {
-          "start" : 1647421524294,
-          "stop" : 1647421524294,
+          "start" : 1647421751173,
+          "stop" : 1647421751173,
           "duration" : 0
         },
         "status" : "passed",
@@ -224,8 +224,8 @@
       }, {
         "name" : "POST 200 /user/apm",
         "time" : {
-          "start" : 1647421524294,
-          "stop" : 1647421524294,
+          "start" : 1647421751173,
+          "stop" : 1647421751173,
           "duration" : 0
         },
         "status" : "passed",
@@ -237,10 +237,10 @@
         "shouldDisplayMessage" : false,
         "hasContent" : false
       }, {
-        "name" : "POST 200 /frg",
+        "name" : "POST /frg",
         "time" : {
-          "start" : 1647421524294,
-          "stop" : 1647421524294,
+          "start" : 1647421751173,
+          "stop" : 1647421751173,
           "duration" : 0
         },
         "status" : "passed",
@@ -261,9 +261,9 @@
     }, {
       "name" : "contains .radio-info > label, 9am to 10am",
       "time" : {
-        "start" : 1647421524300,
-        "stop" : 1647421524355,
-        "duration" : 55
+        "start" : 1647421751174,
+        "stop" : 1647421751233,
+        "duration" : 59
       },
       "status" : "passed",
       "steps" : [ ],
@@ -276,9 +276,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1647421524355,
-        "stop" : 1647421524567,
-        "duration" : 212
+        "start" : 1647421751233,
+        "stop" : 1647421751484,
+        "duration" : 251
       },
       "status" : "passed",
       "steps" : [ ],
@@ -314,6 +314,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "9f5e7fbab4324754.json",
+  "source" : "dd90c9fbe6827bfd.json",
   "parameterValues" : [ ]
 }
