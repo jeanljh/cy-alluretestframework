@@ -31,6 +31,7 @@ context('Test Suite - Add Visit', () => {
         .get('.picker__day--highlighted').click()
         .get('@picker').click()
         .get('.picker__button--clear').click({force: true})
+        .wait(1000)
         .get('@picker').should('have.value', tmrDate)
     })
 
