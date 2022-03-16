@@ -1,26 +1,6 @@
 {
   "55c06c5b84395fc94e737c57afbbeade" : {
     "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "a18feaaf99a889d",
-      "status" : "failed",
-      "statusDetails" : "Timed out retrying after 10000ms: expected '<input#P1885179132.date_div.picker__input.picker__input--target>' to have value '17/03/2022', but the value was ''",
-      "time" : {
-        "start" : 1647420481009,
-        "stop" : 1647420499467,
-        "duration" : 18458
-      }
-    } ]
-  },
-  "03ecfbfa966dc2c7eaa22117b69007ef" : {
-    "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
@@ -29,88 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "dd974445a934ea22",
+      "uid" : "e97b56cb4ae63c43",
       "status" : "passed",
       "time" : {
-        "start" : 1647420516906,
-        "stop" : 1647420524573,
-        "duration" : 7667
-      }
-    } ]
-  },
-  "90edbcc8f7eb75126dc922bd66aca59f" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "5c6bb43987bc1c8c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647420472801,
-        "stop" : 1647420480935,
-        "duration" : 8134
-      }
-    } ]
-  },
-  "ede22ccab36642ac861c1e6b2236c96c" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "59bd54805e02026f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647420508184,
-        "stop" : 1647420516806,
-        "duration" : 8622
-      }
-    } ]
-  },
-  "fb287615db17f64377475a27e1364bd3" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "153b49dedd1b517c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647420462274,
-        "stop" : 1647420472707,
-        "duration" : 10433
-      }
-    } ]
-  },
-  "181e81513c96f7bfe5b91badd6ffb308" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "7b455c3b7c98b809",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647420499599,
-        "stop" : 1647420508145,
-        "duration" : 8546
+        "start" : 1647420820749,
+        "stop" : 1647420830286,
+        "duration" : 9537
       }
     } ]
   }
