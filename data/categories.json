@@ -3,16 +3,16 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Timed out retrying after 10000ms: expected '<input#P460406909.date_div.picker__input.picker__input--target>' to have value '17/03/2022', but the value was ''",
+      "name" : "Timed out retrying after 10000ms: expected '<input#P1253782687.date_div.picker__input.picker__input--target>' to have value '17/03/2022', but the value was ''",
       "children" : [ {
         "name" : "Test Visit Date - Clear Date",
-        "uid" : "da7691f1d87cfec4",
-        "parentUid" : "01b747575e7c4a50c034fd9cae4f8053",
+        "uid" : "f67dc08fd67145a4",
+        "parentUid" : "ef0862bc01fb99761d50c83a79329855",
         "status" : "failed",
         "time" : {
-          "start" : 1647427332108,
-          "stop" : 1647427353101,
-          "duration" : 20993
+          "start" : 1647427910340,
+          "stop" : 1647427927519,
+          "duration" : 17179
         },
         "flaky" : false,
         "newFailed" : false,
@@ -22,7 +22,7 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "01b747575e7c4a50c034fd9cae4f8053"
+      "uid" : "ef0862bc01fb99761d50c83a79329855"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],

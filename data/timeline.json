@@ -1,48 +1,14 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "Test Visit Date - Default Date",
-    "uid" : "84aeab85b40ca9c2",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1647427353200,
-      "stop" : 1647427360927,
-      "duration" : 7727
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Test Visit Date - Select Date Picker",
-    "uid" : "d6e7fa5880ba396d",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1647427377900,
-      "stop" : 1647427387418,
-      "duration" : 9518
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
     "name" : "Test Visit Date - Today Date",
-    "uid" : "9300a1bca1bc7ee",
+    "uid" : "84b74c70e8cbdaec",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1647427361037,
-      "stop" : 1647427369363,
-      "duration" : 8326
+      "start" : 1647427901861,
+      "stop" : 1647427910277,
+      "duration" : 8416
     },
     "flaky" : false,
     "newFailed" : false,
@@ -53,30 +19,13 @@
     "parameters" : [ ]
   }, {
     "name" : "Test Visit Date - Close Date Picker",
-    "uid" : "e73fa2c75481e87f",
+    "uid" : "489f0c285ad6ad3a",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1647427369506,
-      "stop" : 1647427377868,
-      "duration" : 8362
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Test Visit Date - Clear Date",
-    "uid" : "da7691f1d87cfec4",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1647427332108,
-      "stop" : 1647427353101,
-      "duration" : 20993
+      "start" : 1647427927561,
+      "stop" : 1647427934773,
+      "duration" : 7212
     },
     "flaky" : false,
     "newFailed" : false,
@@ -87,13 +36,64 @@
     "parameters" : [ ]
   }, {
     "name" : "Test Time Slot - Select Checkbox",
-    "uid" : "c65e0614ddaa0f51",
+    "uid" : "aec7496ecd133c55",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1647427387512,
-      "stop" : 1647427395236,
-      "duration" : 7724
+      "start" : 1647427943363,
+      "stop" : 1647427950143,
+      "duration" : 6780
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test Visit Date - Default Date",
+    "uid" : "8eb8ffa71edbc5bc",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1647427892946,
+      "stop" : 1647427901810,
+      "duration" : 8864
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test Visit Date - Clear Date",
+    "uid" : "f67dc08fd67145a4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1647427910340,
+      "stop" : 1647427927519,
+      "duration" : 17179
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test Visit Date - Select Date Picker",
+    "uid" : "65b0e60d9a7413d1",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1647427934803,
+      "stop" : 1647427943291,
+      "duration" : 8488
     },
     "flaky" : false,
     "newFailed" : false,
