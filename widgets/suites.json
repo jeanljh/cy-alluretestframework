@@ -4,10 +4,10 @@
     "uid" : "6a714db0db5d3204a899f10f7a18ac26",
     "name" : "Test Suite - Add Visit",
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 5,
       "unknown" : 0,
       "total" : 6
     }

@@ -1,14 +1,16 @@
 {
-  "uid" : "fcbabcc765a299c3",
-  "name" : "Test Visit Date - Close Date Picker",
-  "fullName" : "Test Visit Date - Close Date Picker",
-  "historyId" : "181e81513c96f7bfe5b91badd6ffb308",
+  "uid" : "28974a532fa4009",
+  "name" : "Test Visit Date - Clear Date",
+  "fullName" : "Test Visit Date - Clear Date",
+  "historyId" : "55c06c5b84395fc94e737c57afbbeade",
   "time" : {
-    "start" : 1647421115678,
-    "stop" : 1647421122839,
-    "duration" : 7161
+    "start" : 1647421482969,
+    "stop" : 1647421500937,
+    "duration" : 17968
   },
-  "status" : "passed",
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 10000ms: expected '<input#P269159155.date_div.picker__input.picker__input--target>' to have value '17/03/2022', but the value was ''",
+  "statusTrace" : "AssertionError: Timed out retrying after 10000ms: expected '<input#P269159155.date_div.picker__input.picker__input--target>' to have value '17/03/2022', but the value was ''\n    at Context.eval (https://app.genesiscare.com.my/__cypress/tests?p=cypress/integration/testsuite.js:151:23)",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -17,21 +19,23 @@
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "testStage" : {
-    "status" : "passed",
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 10000ms: expected '<input#P269159155.date_div.picker__input.picker__input--target>' to have value '17/03/2022', but the value was ''",
+    "statusTrace" : "AssertionError: Timed out retrying after 10000ms: expected '<input#P269159155.date_div.picker__input.picker__input--target>' to have value '17/03/2022', but the value was ''\n    at Context.eval (https://app.genesiscare.com.my/__cypress/tests?p=cypress/integration/testsuite.js:151:23)",
     "steps" : [ {
       "name" : "Visit /add_visit",
       "time" : {
-        "start" : 1647421115679,
-        "stop" : 1647421122253,
-        "duration" : 6574
+        "start" : 1647421482969,
+        "stop" : 1647421489678,
+        "duration" : 6709
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "intercept (\"https://app.genesiscare.com.my/frg\")",
         "time" : {
-          "start" : 1647421115883,
-          "stop" : 1647421115886,
-          "duration" : 3
+          "start" : 1647421483245,
+          "stop" : 1647421483252,
+          "duration" : 7
         },
         "status" : "passed",
         "steps" : [ ],
@@ -44,8 +48,8 @@
       }, {
         "name" : "as (\"frg\")",
         "time" : {
-          "start" : 1647421115886,
-          "stop" : 1647421115886,
+          "start" : 1647421483252,
+          "stop" : 1647421483252,
           "duration" : 0
         },
         "status" : "passed",
@@ -59,9 +63,9 @@
       }, {
         "name" : "visit https://app.genesiscare.com.my/add_visit",
         "time" : {
-          "start" : 1647421115886,
-          "stop" : 1647421116941,
-          "duration" : 1055
+          "start" : 1647421483252,
+          "stop" : 1647421484221,
+          "duration" : 969
         },
         "status" : "passed",
         "steps" : [ ],
@@ -74,8 +78,8 @@
       }, {
         "name" : "GET https://app.genesiscare.com.my/api/1.1/init/data?location=https://app.genesiscare.com.my/add_visit",
         "time" : {
-          "start" : 1647421116940,
-          "stop" : 1647421116940,
+          "start" : 1647421484221,
+          "stop" : 1647421484221,
           "duration" : 0
         },
         "status" : "passed",
@@ -89,9 +93,9 @@
       }, {
         "name" : "GET /api/1.1/init/data?location=https%3A%2F%2Fapp.genesiscare.com.my%2Fadd_visit",
         "time" : {
-          "start" : 1647421116940,
-          "stop" : 1647421116941,
-          "duration" : 1
+          "start" : 1647421484221,
+          "stop" : 1647421484221,
+          "duration" : 0
         },
         "status" : "passed",
         "steps" : [ ],
@@ -104,9 +108,9 @@
       }, {
         "name" : "wait @frg",
         "time" : {
-          "start" : 1647421116941,
-          "stop" : 1647421122253,
-          "duration" : 5312
+          "start" : 1647421484221,
+          "stop" : 1647421489677,
+          "duration" : 5456
         },
         "status" : "passed",
         "steps" : [ ],
@@ -119,8 +123,8 @@
       }, {
         "name" : "POST /bug/client_log",
         "time" : {
-          "start" : 1647421122252,
-          "stop" : 1647421122252,
+          "start" : 1647421489677,
+          "stop" : 1647421489677,
           "duration" : 0
         },
         "status" : "passed",
@@ -134,8 +138,8 @@
       }, {
         "name" : "POST /bug/client_log",
         "time" : {
-          "start" : 1647421122252,
-          "stop" : 1647421122252,
+          "start" : 1647421489677,
+          "stop" : 1647421489677,
           "duration" : 0
         },
         "status" : "passed",
@@ -147,10 +151,10 @@
         "shouldDisplayMessage" : false,
         "hasContent" : false
       }, {
-        "name" : "POST /elasticsearch/search",
+        "name" : "POST https://app.genesiscare.com.my/elasticsearch/search",
         "time" : {
-          "start" : 1647421122252,
-          "stop" : 1647421122252,
+          "start" : 1647421489677,
+          "stop" : 1647421489677,
           "duration" : 0
         },
         "status" : "passed",
@@ -164,8 +168,8 @@
       }, {
         "name" : "POST 200 /user/hi",
         "time" : {
-          "start" : 1647421122252,
-          "stop" : 1647421122252,
+          "start" : 1647421489677,
+          "stop" : 1647421489677,
           "duration" : 0
         },
         "status" : "passed",
@@ -177,10 +181,10 @@
         "shouldDisplayMessage" : false,
         "hasContent" : false
       }, {
-        "name" : "POST 200 /elasticsearch/mget",
+        "name" : "POST 200 /elasticsearch/msearch",
         "time" : {
-          "start" : 1647421122253,
-          "stop" : 1647421122253,
+          "start" : 1647421489677,
+          "stop" : 1647421489677,
           "duration" : 0
         },
         "status" : "passed",
@@ -194,8 +198,8 @@
       }, {
         "name" : "POST 200 /user/m",
         "time" : {
-          "start" : 1647421122253,
-          "stop" : 1647421122253,
+          "start" : 1647421489677,
+          "stop" : 1647421489677,
           "duration" : 0
         },
         "status" : "passed",
@@ -209,8 +213,8 @@
       }, {
         "name" : "POST 200 /elasticsearch/bulk_watch",
         "time" : {
-          "start" : 1647421122253,
-          "stop" : 1647421122253,
+          "start" : 1647421489677,
+          "stop" : 1647421489677,
           "duration" : 0
         },
         "status" : "passed",
@@ -224,8 +228,8 @@
       }, {
         "name" : "POST 200 /user/apm",
         "time" : {
-          "start" : 1647421122253,
-          "stop" : 1647421122253,
+          "start" : 1647421489677,
+          "stop" : 1647421489677,
           "duration" : 0
         },
         "status" : "passed",
@@ -237,10 +241,10 @@
         "shouldDisplayMessage" : false,
         "hasContent" : false
       }, {
-        "name" : "POST 200 /frg",
+        "name" : "POST /frg",
         "time" : {
-          "start" : 1647421122253,
-          "stop" : 1647421122253,
+          "start" : 1647421489677,
+          "stop" : 1647421489677,
           "duration" : 0
         },
         "status" : "passed",
@@ -261,9 +265,24 @@
     }, {
       "name" : "get .date_div",
       "time" : {
-        "start" : 1647421122254,
-        "stop" : 1647421122283,
-        "duration" : 29
+        "start" : 1647421489683,
+        "stop" : 1647421489703,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "as (\"picker\")",
+      "time" : {
+        "start" : 1647421489703,
+        "stop" : 1647421489703,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -276,9 +295,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1647421122283,
-        "stop" : 1647421122471,
-        "duration" : 188
+        "start" : 1647421489703,
+        "stop" : 1647421489927,
+        "duration" : 224
       },
       "status" : "passed",
       "steps" : [ ],
@@ -289,56 +308,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "get .picker__holder",
+      "name" : "get .picker__day--highlighted",
       "time" : {
-        "start" : 1647421122471,
-        "stop" : 1647421122487,
-        "duration" : 16
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "assert expected **<div.picker__holder>** to be **visible**",
-      "time" : {
-        "start" : 1647421122487,
-        "stop" : 1647421122487,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "as (\"pickerBox\")",
-      "time" : {
-        "start" : 1647421122487,
-        "stop" : 1647421122488,
-        "duration" : 1
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "get .picker__button--close",
-      "time" : {
-        "start" : 1647421122488,
-        "stop" : 1647421122498,
-        "duration" : 10
+        "start" : 1647421489932,
+        "stop" : 1647421489957,
+        "duration" : 25
       },
       "status" : "passed",
       "steps" : [ ],
@@ -351,9 +325,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1647421122498,
-        "stop" : 1647421122736,
-        "duration" : 238
+        "start" : 1647421489957,
+        "stop" : 1647421490158,
+        "duration" : 201
       },
       "status" : "passed",
       "steps" : [ ],
@@ -364,11 +338,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "get @pickerBox",
+      "name" : "get @picker",
       "time" : {
-        "start" : 1647421122736,
-        "stop" : 1647421122839,
-        "duration" : 103
+        "start" : 1647421490158,
+        "stop" : 1647421490172,
+        "duration" : 14
       },
       "status" : "passed",
       "steps" : [ ],
@@ -379,13 +353,73 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "assert expected **<div.picker__holder>** not to be **visible**",
+      "name" : "click",
       "time" : {
-        "start" : 1647421122839,
-        "stop" : 1647421122839,
+        "start" : 1647421490172,
+        "stop" : 1647421490431,
+        "duration" : 259
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get .picker__button--clear",
+      "time" : {
+        "start" : 1647421490431,
+        "stop" : 1647421490459,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click {force: true}",
+      "time" : {
+        "start" : 1647421490460,
+        "stop" : 1647421490597,
+        "duration" : 137
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get @picker",
+      "time" : {
+        "start" : 1647421490597,
+        "stop" : 1647421500936,
+        "duration" : 10339
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<input#P269159155.date_div.picker__input.picker__input--target>** to have value **17/03/2022**, but the value was **''**",
+      "time" : {
+        "start" : 1647421500936,
+        "stop" : 1647421500936,
         "duration" : 0
       },
-      "status" : "passed",
+      "status" : "failed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
@@ -394,11 +428,23 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     } ],
-    "attachments" : [ ],
+    "attachments" : [ {
+      "uid" : "cd03dfaac2b43371",
+      "name" : "testsuite.js:2022-03-16T09:05:00.667Z",
+      "source" : "cd03dfaac2b43371.png",
+      "type" : "image/png",
+      "size" : 114023
+    }, {
+      "uid" : "2bae9ad8cb1dc881",
+      "name" : "video recording",
+      "source" : "2bae9ad8cb1dc881.mp4",
+      "type" : "video/mp4",
+      "size" : 1400360
+    } ],
     "parameters" : [ ],
-    "stepsCount" : 25,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
+    "stepsCount" : 27,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
     "hasContent" : true
   },
   "afterStages" : [ ],
@@ -416,9 +462,13 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ ],
-    "categories" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
     "tags" : [ ]
   },
-  "source" : "fcbabcc765a299c3.json",
+  "source" : "28974a532fa4009.json",
   "parameterValues" : [ ]
 }

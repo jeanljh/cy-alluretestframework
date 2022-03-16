@@ -1,12 +1,12 @@
 {
-  "uid" : "6f8fb7d87b706dc9",
+  "uid" : "6a1b45e48dbfdb14",
   "name" : "Test Visit Date - Select Date Picker",
   "fullName" : "Test Visit Date - Select Date Picker",
   "historyId" : "ede22ccab36642ac861c1e6b2236c96c",
   "time" : {
-    "start" : 1647421122887,
-    "stop" : 1647421130478,
-    "duration" : 7591
+    "start" : 1647421508538,
+    "stop" : 1647421516836,
+    "duration" : 8298
   },
   "status" : "passed",
   "flaky" : false,
@@ -21,17 +21,17 @@
     "steps" : [ {
       "name" : "Visit /add_visit",
       "time" : {
-        "start" : 1647421122887,
-        "stop" : 1647421128921,
-        "duration" : 6034
+        "start" : 1647421508539,
+        "stop" : 1647421515075,
+        "duration" : 6536
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "intercept (\"https://app.genesiscare.com.my/frg\")",
         "time" : {
-          "start" : 1647421122976,
-          "stop" : 1647421122980,
-          "duration" : 4
+          "start" : 1647421508901,
+          "stop" : 1647421508904,
+          "duration" : 3
         },
         "status" : "passed",
         "steps" : [ ],
@@ -44,9 +44,9 @@
       }, {
         "name" : "as (\"frg\")",
         "time" : {
-          "start" : 1647421122980,
-          "stop" : 1647421122981,
-          "duration" : 1
+          "start" : 1647421508904,
+          "stop" : 1647421508904,
+          "duration" : 0
         },
         "status" : "passed",
         "steps" : [ ],
@@ -59,9 +59,9 @@
       }, {
         "name" : "visit https://app.genesiscare.com.my/add_visit",
         "time" : {
-          "start" : 1647421122981,
-          "stop" : 1647421124029,
-          "duration" : 1048
+          "start" : 1647421508904,
+          "stop" : 1647421510090,
+          "duration" : 1186
         },
         "status" : "passed",
         "steps" : [ ],
@@ -74,8 +74,8 @@
       }, {
         "name" : "GET https://app.genesiscare.com.my/api/1.1/init/data?location=https://app.genesiscare.com.my/add_visit",
         "time" : {
-          "start" : 1647421124029,
-          "stop" : 1647421124029,
+          "start" : 1647421510089,
+          "stop" : 1647421510089,
           "duration" : 0
         },
         "status" : "passed",
@@ -87,10 +87,10 @@
         "shouldDisplayMessage" : false,
         "hasContent" : false
       }, {
-        "name" : "GET /api/1.1/init/data?location=https%3A%2F%2Fapp.genesiscare.com.my%2Fadd_visit",
+        "name" : "GET 200 /api/1.1/init/data?location=https%3A%2F%2Fapp.genesiscare.com.my%2Fadd_visit",
         "time" : {
-          "start" : 1647421124029,
-          "stop" : 1647421124029,
+          "start" : 1647421510090,
+          "stop" : 1647421510090,
           "duration" : 0
         },
         "status" : "passed",
@@ -104,9 +104,9 @@
       }, {
         "name" : "wait @frg",
         "time" : {
-          "start" : 1647421124029,
-          "stop" : 1647421128921,
-          "duration" : 4892
+          "start" : 1647421510090,
+          "stop" : 1647421515074,
+          "duration" : 4984
         },
         "status" : "passed",
         "steps" : [ ],
@@ -119,8 +119,8 @@
       }, {
         "name" : "POST /bug/client_log",
         "time" : {
-          "start" : 1647421128921,
-          "stop" : 1647421128921,
+          "start" : 1647421515074,
+          "stop" : 1647421515074,
           "duration" : 0
         },
         "status" : "passed",
@@ -134,8 +134,8 @@
       }, {
         "name" : "POST /bug/client_log",
         "time" : {
-          "start" : 1647421128921,
-          "stop" : 1647421128921,
+          "start" : 1647421515074,
+          "stop" : 1647421515074,
           "duration" : 0
         },
         "status" : "passed",
@@ -149,8 +149,8 @@
       }, {
         "name" : "POST /elasticsearch/search",
         "time" : {
-          "start" : 1647421128921,
-          "stop" : 1647421128921,
+          "start" : 1647421515074,
+          "stop" : 1647421515074,
           "duration" : 0
         },
         "status" : "passed",
@@ -164,8 +164,8 @@
       }, {
         "name" : "POST 200 /user/hi",
         "time" : {
-          "start" : 1647421128921,
-          "stop" : 1647421128921,
+          "start" : 1647421515074,
+          "stop" : 1647421515074,
           "duration" : 0
         },
         "status" : "passed",
@@ -177,10 +177,10 @@
         "shouldDisplayMessage" : false,
         "hasContent" : false
       }, {
-        "name" : "POST 200 /elasticsearch/mget",
+        "name" : "POST 200 /elasticsearch/msearch",
         "time" : {
-          "start" : 1647421128921,
-          "stop" : 1647421128921,
+          "start" : 1647421515074,
+          "stop" : 1647421515074,
           "duration" : 0
         },
         "status" : "passed",
@@ -194,23 +194,8 @@
       }, {
         "name" : "POST 200 /user/m",
         "time" : {
-          "start" : 1647421128921,
-          "stop" : 1647421128921,
-          "duration" : 0
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ ],
-        "stepsCount" : 0,
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "hasContent" : false
-      }, {
-        "name" : "POST 200 /user/apm",
-        "time" : {
-          "start" : 1647421128921,
-          "stop" : 1647421128921,
+          "start" : 1647421515074,
+          "stop" : 1647421515074,
           "duration" : 0
         },
         "status" : "passed",
@@ -224,8 +209,8 @@
       }, {
         "name" : "POST 200 /elasticsearch/bulk_watch",
         "time" : {
-          "start" : 1647421128921,
-          "stop" : 1647421128921,
+          "start" : 1647421515074,
+          "stop" : 1647421515074,
           "duration" : 0
         },
         "status" : "passed",
@@ -237,10 +222,25 @@
         "shouldDisplayMessage" : false,
         "hasContent" : false
       }, {
-        "name" : "POST /frg",
+        "name" : "POST 200 /user/apm",
         "time" : {
-          "start" : 1647421128921,
-          "stop" : 1647421128921,
+          "start" : 1647421515074,
+          "stop" : 1647421515074,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST 200 /frg",
+        "time" : {
+          "start" : 1647421515074,
+          "stop" : 1647421515074,
           "duration" : 0
         },
         "status" : "passed",
@@ -261,9 +261,9 @@
     }, {
       "name" : "get .date_div",
       "time" : {
-        "start" : 1647421128924,
-        "stop" : 1647421128948,
-        "duration" : 24
+        "start" : 1647421515078,
+        "stop" : 1647421515123,
+        "duration" : 45
       },
       "status" : "passed",
       "steps" : [ ],
@@ -276,8 +276,8 @@
     }, {
       "name" : "as (\"picker\")",
       "time" : {
-        "start" : 1647421128948,
-        "stop" : 1647421128948,
+        "start" : 1647421515123,
+        "stop" : 1647421515123,
         "duration" : 0
       },
       "status" : "passed",
@@ -291,9 +291,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1647421128948,
-        "stop" : 1647421129140,
-        "duration" : 192
+        "start" : 1647421515123,
+        "stop" : 1647421515342,
+        "duration" : 219
       },
       "status" : "passed",
       "steps" : [ ],
@@ -306,9 +306,9 @@
     }, {
       "name" : "get .picker__select--year",
       "time" : {
-        "start" : 1647421129140,
-        "stop" : 1647421129166,
-        "duration" : 26
+        "start" : 1647421515342,
+        "stop" : 1647421515363,
+        "duration" : 21
       },
       "status" : "passed",
       "steps" : [ ],
@@ -321,9 +321,9 @@
     }, {
       "name" : "as (\"year\")",
       "time" : {
-        "start" : 1647421129167,
-        "stop" : 1647421129167,
-        "duration" : 0
+        "start" : 1647421515363,
+        "stop" : 1647421515376,
+        "duration" : 13
       },
       "status" : "passed",
       "steps" : [ ],
@@ -336,9 +336,9 @@
     }, {
       "name" : "find option",
       "time" : {
-        "start" : 1647421129167,
-        "stop" : 1647421129203,
-        "duration" : 36
+        "start" : 1647421515376,
+        "stop" : 1647421515434,
+        "duration" : 58
       },
       "status" : "passed",
       "steps" : [ ],
@@ -351,8 +351,8 @@
     }, {
       "name" : "assert expected **<option>** to contain text **'2022'**",
       "time" : {
-        "start" : 1647421129203,
-        "stop" : 1647421129203,
+        "start" : 1647421515434,
+        "stop" : 1647421515434,
         "duration" : 0
       },
       "status" : "passed",
@@ -372,9 +372,9 @@
     }, {
       "name" : "get @year",
       "time" : {
-        "start" : 1647421129203,
-        "stop" : 1647421129217,
-        "duration" : 14
+        "start" : 1647421515434,
+        "stop" : 1647421515470,
+        "duration" : 36
       },
       "status" : "passed",
       "steps" : [ ],
@@ -387,9 +387,9 @@
     }, {
       "name" : "select 2022",
       "time" : {
-        "start" : 1647421129217,
-        "stop" : 1647421129538,
-        "duration" : 321
+        "start" : 1647421515470,
+        "stop" : 1647421515876,
+        "duration" : 406
       },
       "status" : "passed",
       "steps" : [ ],
@@ -402,9 +402,9 @@
     }, {
       "name" : "get @year",
       "time" : {
-        "start" : 1647421129538,
-        "stop" : 1647421129556,
-        "duration" : 18
+        "start" : 1647421515876,
+        "stop" : 1647421515920,
+        "duration" : 44
       },
       "status" : "passed",
       "steps" : [ ],
@@ -417,9 +417,9 @@
     }, {
       "name" : "find :selected",
       "time" : {
-        "start" : 1647421129556,
-        "stop" : 1647421129590,
-        "duration" : 34
+        "start" : 1647421515920,
+        "stop" : 1647421515977,
+        "duration" : 57
       },
       "status" : "passed",
       "steps" : [ ],
@@ -432,8 +432,8 @@
     }, {
       "name" : "assert expected **<option>** to have text **'2022'**",
       "time" : {
-        "start" : 1647421129590,
-        "stop" : 1647421129590,
+        "start" : 1647421515977,
+        "stop" : 1647421515977,
         "duration" : 0
       },
       "status" : "passed",
@@ -453,9 +453,9 @@
     }, {
       "name" : "get .picker__select--month",
       "time" : {
-        "start" : 1647421129590,
-        "stop" : 1647421129632,
-        "duration" : 42
+        "start" : 1647421515977,
+        "stop" : 1647421516021,
+        "duration" : 44
       },
       "status" : "passed",
       "steps" : [ ],
@@ -468,9 +468,9 @@
     }, {
       "name" : "as (\"month\")",
       "time" : {
-        "start" : 1647421129632,
-        "stop" : 1647421129633,
-        "duration" : 1
+        "start" : 1647421516021,
+        "stop" : 1647421516021,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -483,9 +483,9 @@
     }, {
       "name" : "find option",
       "time" : {
-        "start" : 1647421129633,
-        "stop" : 1647421129718,
-        "duration" : 85
+        "start" : 1647421516021,
+        "stop" : 1647421516100,
+        "duration" : 79
       },
       "status" : "passed",
       "steps" : [ ],
@@ -498,9 +498,9 @@
     }, {
       "name" : "not :disabled",
       "time" : {
-        "start" : 1647421129718,
-        "stop" : 1647421129802,
-        "duration" : 84
+        "start" : 1647421516100,
+        "stop" : 1647421516168,
+        "duration" : 68
       },
       "status" : "passed",
       "steps" : [ ],
@@ -513,8 +513,8 @@
     }, {
       "name" : "assert expected **true** to be true",
       "time" : {
-        "start" : 1647421129821,
-        "stop" : 1647421129821,
+        "start" : 1647421516172,
+        "stop" : 1647421516172,
         "duration" : 0
       },
       "status" : "passed",
@@ -534,9 +534,9 @@
     }, {
       "name" : "get @month",
       "time" : {
-        "start" : 1647421129821,
-        "stop" : 1647421129841,
-        "duration" : 20
+        "start" : 1647421516172,
+        "stop" : 1647421516210,
+        "duration" : 38
       },
       "status" : "passed",
       "steps" : [ ],
@@ -549,9 +549,9 @@
     }, {
       "name" : "select 5",
       "time" : {
-        "start" : 1647421129841,
-        "stop" : 1647421130159,
-        "duration" : 318
+        "start" : 1647421516210,
+        "stop" : 1647421516509,
+        "duration" : 299
       },
       "status" : "passed",
       "steps" : [ ],
@@ -564,7 +564,7 @@
     }, {
       "name" : "get (\"@month\")",
       "time" : {
-        "start" : 1647421130159
+        "start" : 1647421516509
       },
       "status" : "unknown",
       "steps" : [ ],
@@ -577,7 +577,7 @@
     }, {
       "name" : "get (\".picker__select--month\")",
       "time" : {
-        "start" : 1647421130159
+        "start" : 1647421516510
       },
       "status" : "unknown",
       "steps" : [ ],
@@ -590,9 +590,9 @@
     }, {
       "name" : "find :selected",
       "time" : {
-        "start" : 1647421130170,
-        "stop" : 1647421130244,
-        "duration" : 74
+        "start" : 1647421516556,
+        "stop" : 1647421516620,
+        "duration" : 64
       },
       "status" : "passed",
       "steps" : [ ],
@@ -605,8 +605,8 @@
     }, {
       "name" : "assert expected **<option>** to have property **value** with the value **'5'**",
       "time" : {
-        "start" : 1647421130244,
-        "stop" : 1647421130244,
+        "start" : 1647421516620,
+        "stop" : 1647421516620,
         "duration" : 0
       },
       "status" : "passed",
@@ -626,8 +626,8 @@
     }, {
       "name" : "assert expected **true** to be true",
       "time" : {
-        "start" : 1647421130438,
-        "stop" : 1647421130438,
+        "start" : 1647421516785,
+        "stop" : 1647421516785,
         "duration" : 0
       },
       "status" : "passed",
@@ -647,9 +647,9 @@
     }, {
       "name" : "get @picker",
       "time" : {
-        "start" : 1647421130438,
-        "stop" : 1647421130478,
-        "duration" : 40
+        "start" : 1647421516786,
+        "stop" : 1647421516836,
+        "duration" : 50
       },
       "status" : "passed",
       "steps" : [ ],
@@ -660,10 +660,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "assert expected **<input#P1528535864.date_div.picker__input.picker__input--target>** to have value **16/06/2022**",
+      "name" : "assert expected **<input#P1787898485.date_div.picker__input.picker__input--target>** to have value **16/06/2022**",
       "time" : {
-        "start" : 1647421130477,
-        "stop" : 1647421130477,
+        "start" : 1647421516836,
+        "stop" : 1647421516836,
         "duration" : 0
       },
       "status" : "passed",
@@ -706,6 +706,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6f8fb7d87b706dc9.json",
+  "source" : "6a1b45e48dbfdb14.json",
   "parameterValues" : [ ]
 }

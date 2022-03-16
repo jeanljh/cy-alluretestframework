@@ -1,12 +1,12 @@
 {
-  "uid" : "605f51b64191151b",
+  "uid" : "9f5e7fbab4324754",
   "name" : "Test Time Slot - Select Checkbox",
   "fullName" : "Test Time Slot - Select Checkbox",
   "historyId" : "03ecfbfa966dc2c7eaa22117b69007ef",
   "time" : {
-    "start" : 1647421130622,
-    "stop" : 1647421137193,
-    "duration" : 6571
+    "start" : 1647421517016,
+    "stop" : 1647421524567,
+    "duration" : 7551
   },
   "status" : "passed",
   "flaky" : false,
@@ -21,17 +21,17 @@
     "steps" : [ {
       "name" : "Visit /add_visit",
       "time" : {
-        "start" : 1647421130623,
-        "stop" : 1647421136982,
-        "duration" : 6359
+        "start" : 1647421517016,
+        "stop" : 1647421524295,
+        "duration" : 7279
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "intercept (\"https://app.genesiscare.com.my/frg\")",
         "time" : {
-          "start" : 1647421130726,
-          "stop" : 1647421130743,
-          "duration" : 17
+          "start" : 1647421517750,
+          "stop" : 1647421517752,
+          "duration" : 2
         },
         "status" : "passed",
         "steps" : [ ],
@@ -44,8 +44,8 @@
       }, {
         "name" : "as (\"frg\")",
         "time" : {
-          "start" : 1647421130743,
-          "stop" : 1647421130743,
+          "start" : 1647421517752,
+          "stop" : 1647421517752,
           "duration" : 0
         },
         "status" : "passed",
@@ -59,9 +59,9 @@
       }, {
         "name" : "visit https://app.genesiscare.com.my/add_visit",
         "time" : {
-          "start" : 1647421130743,
-          "stop" : 1647421131816,
-          "duration" : 1073
+          "start" : 1647421517752,
+          "stop" : 1647421519071,
+          "duration" : 1319
         },
         "status" : "passed",
         "steps" : [ ],
@@ -74,8 +74,8 @@
       }, {
         "name" : "GET https://app.genesiscare.com.my/api/1.1/init/data?location=https://app.genesiscare.com.my/add_visit",
         "time" : {
-          "start" : 1647421131816,
-          "stop" : 1647421131816,
+          "start" : 1647421519071,
+          "stop" : 1647421519071,
           "duration" : 0
         },
         "status" : "passed",
@@ -89,8 +89,8 @@
       }, {
         "name" : "GET 200 /api/1.1/init/data?location=https%3A%2F%2Fapp.genesiscare.com.my%2Fadd_visit",
         "time" : {
-          "start" : 1647421131816,
-          "stop" : 1647421131816,
+          "start" : 1647421519071,
+          "stop" : 1647421519071,
           "duration" : 0
         },
         "status" : "passed",
@@ -104,9 +104,9 @@
       }, {
         "name" : "wait @frg",
         "time" : {
-          "start" : 1647421131816,
-          "stop" : 1647421136982,
-          "duration" : 5166
+          "start" : 1647421519071,
+          "stop" : 1647421524294,
+          "duration" : 5223
         },
         "status" : "passed",
         "steps" : [ ],
@@ -119,8 +119,8 @@
       }, {
         "name" : "POST /bug/client_log",
         "time" : {
-          "start" : 1647421136981,
-          "stop" : 1647421136981,
+          "start" : 1647421524294,
+          "stop" : 1647421524294,
           "duration" : 0
         },
         "status" : "passed",
@@ -134,8 +134,8 @@
       }, {
         "name" : "POST /bug/client_log",
         "time" : {
-          "start" : 1647421136981,
-          "stop" : 1647421136981,
+          "start" : 1647421524294,
+          "stop" : 1647421524294,
           "duration" : 0
         },
         "status" : "passed",
@@ -149,8 +149,8 @@
       }, {
         "name" : "POST /elasticsearch/search",
         "time" : {
-          "start" : 1647421136981,
-          "stop" : 1647421136981,
+          "start" : 1647421524294,
+          "stop" : 1647421524294,
           "duration" : 0
         },
         "status" : "passed",
@@ -164,8 +164,8 @@
       }, {
         "name" : "POST 200 /user/hi",
         "time" : {
-          "start" : 1647421136981,
-          "stop" : 1647421136981,
+          "start" : 1647421524294,
+          "stop" : 1647421524294,
           "duration" : 0
         },
         "status" : "passed",
@@ -179,8 +179,8 @@
       }, {
         "name" : "POST 200 /elasticsearch/msearch",
         "time" : {
-          "start" : 1647421136981,
-          "stop" : 1647421136981,
+          "start" : 1647421524294,
+          "stop" : 1647421524294,
           "duration" : 0
         },
         "status" : "passed",
@@ -194,8 +194,8 @@
       }, {
         "name" : "POST 200 /user/m",
         "time" : {
-          "start" : 1647421136981,
-          "stop" : 1647421136981,
+          "start" : 1647421524294,
+          "stop" : 1647421524294,
           "duration" : 0
         },
         "status" : "passed",
@@ -209,8 +209,8 @@
       }, {
         "name" : "POST 200 /elasticsearch/bulk_watch",
         "time" : {
-          "start" : 1647421136981,
-          "stop" : 1647421136981,
+          "start" : 1647421524294,
+          "stop" : 1647421524294,
           "duration" : 0
         },
         "status" : "passed",
@@ -224,8 +224,8 @@
       }, {
         "name" : "POST 200 /user/apm",
         "time" : {
-          "start" : 1647421136981,
-          "stop" : 1647421136981,
+          "start" : 1647421524294,
+          "stop" : 1647421524294,
           "duration" : 0
         },
         "status" : "passed",
@@ -239,8 +239,8 @@
       }, {
         "name" : "POST 200 /frg",
         "time" : {
-          "start" : 1647421136982,
-          "stop" : 1647421136982,
+          "start" : 1647421524294,
+          "stop" : 1647421524294,
           "duration" : 0
         },
         "status" : "passed",
@@ -261,9 +261,9 @@
     }, {
       "name" : "contains .radio-info > label, 9am to 10am",
       "time" : {
-        "start" : 1647421136983,
-        "stop" : 1647421137025,
-        "duration" : 42
+        "start" : 1647421524300,
+        "stop" : 1647421524355,
+        "duration" : 55
       },
       "status" : "passed",
       "steps" : [ ],
@@ -276,9 +276,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1647421137025,
-        "stop" : 1647421137192,
-        "duration" : 167
+        "start" : 1647421524355,
+        "stop" : 1647421524567,
+        "duration" : 212
       },
       "status" : "passed",
       "steps" : [ ],
@@ -314,6 +314,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "605f51b64191151b.json",
+  "source" : "9f5e7fbab4324754.json",
   "parameterValues" : [ ]
 }
