@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Wed Mar 16 08:29:09 UTC 2022","Wed Mar 16 08:29:09 UTC 2022","1","","Test Suite - Add Visit","","","","Test Visit Date - Select Date Picker",""
+"broken","Wed Mar 16 08:29:09 UTC 2022","Wed Mar 16 08:29:09 UTC 2022","0","","Test Suite - Add Visit","","","","Test Visit Date - Close Date Picker",""
+"broken","Wed Mar 16 08:29:09 UTC 2022","Wed Mar 16 08:29:09 UTC 2022","0","","Test Suite - Add Visit","","","","Test Visit Date - Clear Date",""
+"broken","Wed Mar 16 08:29:09 UTC 2022","Wed Mar 16 08:29:09 UTC 2022","0","","Test Suite - Add Visit","","","","Test Time Slot - Select Checkbox",""
+"broken","Wed Mar 16 08:29:09 UTC 2022","Wed Mar 16 08:29:09 UTC 2022","11","","Test Suite - Add Visit","","","","Test Visit Date - Today Date",""
+"passed","Wed Mar 16 08:28:45 UTC 2022","Wed Mar 16 08:28:54 UTC 2022","8915","","Test Suite - Add Visit","","","","Test Visit Date - Default Date",""

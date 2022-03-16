@@ -1,0 +1,121 @@
+{
+  "55c06c5b84395fc94e737c57afbbeade" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "60ea96a9c275730e",
+      "status" : "broken",
+      "statusDetails" : "Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `frg`. No request ever occurred.\n\nhttps://on.cypress.io/wait",
+      "time" : {
+        "start" : 1647419349288,
+        "stop" : 1647419349288,
+        "duration" : 0
+      }
+    } ]
+  },
+  "03ecfbfa966dc2c7eaa22117b69007ef" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "69a79a95da1c0fad",
+      "status" : "broken",
+      "statusDetails" : "Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `frg`. No request ever occurred.\n\nhttps://on.cypress.io/wait",
+      "time" : {
+        "start" : 1647419349289,
+        "stop" : 1647419349289,
+        "duration" : 0
+      }
+    } ]
+  },
+  "90edbcc8f7eb75126dc922bd66aca59f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4c2f6e13ec3a21df",
+      "status" : "broken",
+      "statusDetails" : "Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `frg`. No request ever occurred.\n\nhttps://on.cypress.io/wait",
+      "time" : {
+        "start" : 1647419349277,
+        "stop" : 1647419349288,
+        "duration" : 11
+      }
+    } ]
+  },
+  "ede22ccab36642ac861c1e6b2236c96c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6ab324353c7063d5",
+      "status" : "broken",
+      "statusDetails" : "Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `frg`. No request ever occurred.\n\nhttps://on.cypress.io/wait",
+      "time" : {
+        "start" : 1647419349288,
+        "stop" : 1647419349289,
+        "duration" : 1
+      }
+    } ]
+  },
+  "fb287615db17f64377475a27e1364bd3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fd0c670916d07f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647419325846,
+        "stop" : 1647419334761,
+        "duration" : 8915
+      }
+    } ]
+  },
+  "181e81513c96f7bfe5b91badd6ffb308" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a0d7a6df84a86b25",
+      "status" : "broken",
+      "statusDetails" : "Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `frg`. No request ever occurred.\n\nhttps://on.cypress.io/wait",
+      "time" : {
+        "start" : 1647419349288,
+        "stop" : 1647419349288,
+        "duration" : 0
+      }
+    } ]
+  }
+}
