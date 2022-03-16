@@ -2,47 +2,13 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "children" : [ {
     "name" : "Test Visit Date - Default Date",
-    "uid" : "fd0c670916d07f9",
+    "uid" : "1b777f7cb7eb78d0",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
-      "start" : 1647419325846,
-      "stop" : 1647419334761,
-      "duration" : 8915
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Test Visit Date - Today Date",
-    "uid" : "4c2f6e13ec3a21df",
-    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-    "status" : "broken",
-    "time" : {
-      "start" : 1647419349277,
-      "stop" : 1647419349288,
-      "duration" : 11
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 1,
-    "retriesStatusChange" : true,
-    "parameters" : [ ]
-  }, {
-    "name" : "Test Visit Date - Select Date Picker",
-    "uid" : "6ab324353c7063d5",
-    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-    "status" : "broken",
-    "time" : {
-      "start" : 1647419349288,
-      "stop" : 1647419349289,
-      "duration" : 1
+      "start" : 1647419584195,
+      "stop" : 1647419593582,
+      "duration" : 9387
     },
     "flaky" : false,
     "newFailed" : false,
@@ -53,12 +19,12 @@
     "parameters" : [ ]
   }, {
     "name" : "Test Visit Date - Close Date Picker",
-    "uid" : "a0d7a6df84a86b25",
+    "uid" : "1d773338da5e2b91",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "broken",
     "time" : {
-      "start" : 1647419349288,
-      "stop" : 1647419349288,
+      "start" : 1647419600771,
+      "stop" : 1647419600771,
       "duration" : 0
     },
     "flaky" : false,
@@ -69,13 +35,30 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
-    "name" : "Test Visit Date - Clear Date",
-    "uid" : "60ea96a9c275730e",
+    "name" : "Test Visit Date - Select Date Picker",
+    "uid" : "3e4725e94f6ade01",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "broken",
     "time" : {
-      "start" : 1647419349288,
-      "stop" : 1647419349288,
+      "start" : 1647419600771,
+      "stop" : 1647419600772,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test Visit Date - Today Date",
+    "uid" : "d85008bc5ba200bf",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "broken",
+    "time" : {
+      "start" : 1647419600771,
+      "stop" : 1647419600771,
       "duration" : 0
     },
     "flaky" : false,
@@ -86,13 +69,30 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
-    "name" : "Test Time Slot - Select Checkbox",
-    "uid" : "69a79a95da1c0fad",
+    "name" : "Test Visit Date - Clear Date",
+    "uid" : "a466531babfc60fe",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "broken",
     "time" : {
-      "start" : 1647419349289,
-      "stop" : 1647419349289,
+      "start" : 1647419600771,
+      "stop" : 1647419600771,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test Time Slot - Select Checkbox",
+    "uid" : "c5df861df4975efa",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "broken",
+    "time" : {
+      "start" : 1647419600772,
+      "stop" : 1647419600772,
       "duration" : 0
     },
     "flaky" : false,

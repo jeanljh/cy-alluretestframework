@@ -1,12 +1,12 @@
 {
-  "uid" : "c15655ef285d045d",
+  "uid" : "284cb2175f00e60b",
   "name" : "Test Visit Date - Default Date",
-  "fullName" : "Test Visit Date - Clear Date",
-  "historyId" : "55c06c5b84395fc94e737c57afbbeade",
+  "fullName" : "Test Visit Date - Today Date",
+  "historyId" : "90edbcc8f7eb75126dc922bd66aca59f",
   "time" : {
-    "start" : 1647419342716,
-    "stop" : 1647419349277,
-    "duration" : 6561
+    "start" : 1647419593665,
+    "stop" : 1647419600771,
+    "duration" : 7106
   },
   "status" : "broken",
   "statusMessage" : "Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `frg`. No request ever occurred.\n\nhttps://on.cypress.io/wait",
@@ -25,9 +25,9 @@
     "steps" : [ {
       "name" : "Visit /add_visit",
       "time" : {
-        "start" : 1647419342717,
-        "stop" : 1647419349277,
-        "duration" : 6560
+        "start" : 1647419593665,
+        "stop" : 1647419600770,
+        "duration" : 7105
       },
       "status" : "failed",
       "statusMessage" : "Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `frg`. No request ever occurred.\n\nhttps://on.cypress.io/wait",
@@ -35,9 +35,9 @@
       "steps" : [ {
         "name" : "intercept (\"https://app.genesiscare.com.my/frg\")",
         "time" : {
-          "start" : 1647419342942,
-          "stop" : 1647419342945,
-          "duration" : 3
+          "start" : 1647419594149,
+          "stop" : 1647419594160,
+          "duration" : 11
         },
         "status" : "passed",
         "steps" : [ ],
@@ -50,8 +50,8 @@
       }, {
         "name" : "as (\"frg\")",
         "time" : {
-          "start" : 1647419342945,
-          "stop" : 1647419342945,
+          "start" : 1647419594160,
+          "stop" : 1647419594160,
           "duration" : 0
         },
         "status" : "passed",
@@ -65,9 +65,9 @@
       }, {
         "name" : "visit https://app.genesiscare.com.my/add_visit",
         "time" : {
-          "start" : 1647419342945,
-          "stop" : 1647419343971,
-          "duration" : 1026
+          "start" : 1647419594160,
+          "stop" : 1647419595489,
+          "duration" : 1329
         },
         "status" : "passed",
         "steps" : [ ],
@@ -80,23 +80,8 @@
       }, {
         "name" : "GET https://app.genesiscare.com.my/api/1.1/init/data?location=https://app.genesiscare.com.my/add_visit",
         "time" : {
-          "start" : 1647419343970,
-          "stop" : 1647419343970,
-          "duration" : 0
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ ],
-        "stepsCount" : 0,
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "hasContent" : false
-      }, {
-        "name" : "GET /api/1.1/init/data?location=https%3A%2F%2Fapp.genesiscare.com.my%2Fadd_visit",
-        "time" : {
-          "start" : 1647419343970,
-          "stop" : 1647419343970,
+          "start" : 1647419595489,
+          "stop" : 1647419595489,
           "duration" : 0
         },
         "status" : "passed",
@@ -110,9 +95,9 @@
       }, {
         "name" : "wait @frg",
         "time" : {
-          "start" : 1647419343971,
-          "stop" : 1647419349277,
-          "duration" : 5306
+          "start" : 1647419595489,
+          "stop" : 1647419600770,
+          "duration" : 5281
         },
         "status" : "failed",
         "steps" : [ ],
@@ -125,8 +110,8 @@
       }, {
         "name" : "POST /bug/client_log",
         "time" : {
-          "start" : 1647419349274,
-          "stop" : 1647419349274,
+          "start" : 1647419600769,
+          "stop" : 1647419600769,
           "duration" : 0
         },
         "status" : "passed",
@@ -140,8 +125,8 @@
       }, {
         "name" : "POST /bug/client_log",
         "time" : {
-          "start" : 1647419349274,
-          "stop" : 1647419349274,
+          "start" : 1647419600769,
+          "stop" : 1647419600769,
           "duration" : 0
         },
         "status" : "passed",
@@ -153,10 +138,10 @@
         "shouldDisplayMessage" : false,
         "hasContent" : false
       }, {
-        "name" : "POST 200 /elasticsearch/search",
+        "name" : "POST /elasticsearch/search",
         "time" : {
-          "start" : 1647419349275,
-          "stop" : 1647419349275,
+          "start" : 1647419600770,
+          "stop" : 1647419600770,
           "duration" : 0
         },
         "status" : "passed",
@@ -170,8 +155,8 @@
       }, {
         "name" : "POST 200 /user/hi",
         "time" : {
-          "start" : 1647419349275,
-          "stop" : 1647419349275,
+          "start" : 1647419600770,
+          "stop" : 1647419600770,
           "duration" : 0
         },
         "status" : "passed",
@@ -183,10 +168,10 @@
         "shouldDisplayMessage" : false,
         "hasContent" : false
       }, {
-        "name" : "POST 200 /elasticsearch/msearch",
+        "name" : "POST 200 /elasticsearch/mget",
         "time" : {
-          "start" : 1647419349275,
-          "stop" : 1647419349275,
+          "start" : 1647419600770,
+          "stop" : 1647419600770,
           "duration" : 0
         },
         "status" : "passed",
@@ -200,8 +185,8 @@
       }, {
         "name" : "POST 200 /user/m",
         "time" : {
-          "start" : 1647419349275,
-          "stop" : 1647419349275,
+          "start" : 1647419600770,
+          "stop" : 1647419600770,
           "duration" : 0
         },
         "status" : "passed",
@@ -215,8 +200,8 @@
       }, {
         "name" : "POST 200 /elasticsearch/bulk_watch",
         "time" : {
-          "start" : 1647419349275,
-          "stop" : 1647419349275,
+          "start" : 1647419600770,
+          "stop" : 1647419600770,
           "duration" : 0
         },
         "status" : "passed",
@@ -230,8 +215,8 @@
       }, {
         "name" : "POST 200 /user/apm",
         "time" : {
-          "start" : 1647419349275,
-          "stop" : 1647419349275,
+          "start" : 1647419600770,
+          "stop" : 1647419600770,
           "duration" : 0
         },
         "status" : "passed",
@@ -245,8 +230,8 @@
       }, {
         "name" : "POST https://app.genesiscare.com.my/frg",
         "time" : {
-          "start" : 1647419349277,
-          "stop" : 1647419349277,
+          "start" : 1647419600770,
+          "stop" : 1647419600770,
           "duration" : 0
         },
         "status" : "passed",
@@ -260,14 +245,14 @@
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 15,
+      "stepsCount" : 14,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : true,
       "hasContent" : true
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 16,
+    "stepsCount" : 15,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -288,6 +273,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c15655ef285d045d.json",
+  "source" : "284cb2175f00e60b.json",
   "parameterValues" : [ ]
 }

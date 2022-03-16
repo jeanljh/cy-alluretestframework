@@ -1,61 +1,61 @@
 [ {
-  "uid" : "a0d7a6df84a86b25",
-  "name" : "Test Visit Date - Close Date Picker",
-  "time" : {
-    "start" : 1647419349288,
-    "stop" : 1647419349288,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "4c2f6e13ec3a21df",
-  "name" : "Test Visit Date - Today Date",
-  "time" : {
-    "start" : 1647419349277,
-    "stop" : 1647419349288,
-    "duration" : 11
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "60ea96a9c275730e",
-  "name" : "Test Visit Date - Clear Date",
-  "time" : {
-    "start" : 1647419349288,
-    "stop" : 1647419349288,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "69a79a95da1c0fad",
-  "name" : "Test Time Slot - Select Checkbox",
-  "time" : {
-    "start" : 1647419349289,
-    "stop" : 1647419349289,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "6ab324353c7063d5",
+  "uid" : "3e4725e94f6ade01",
   "name" : "Test Visit Date - Select Date Picker",
   "time" : {
-    "start" : 1647419349288,
-    "stop" : 1647419349289,
+    "start" : 1647419600771,
+    "stop" : 1647419600772,
     "duration" : 1
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "fd0c670916d07f9",
+  "uid" : "1b777f7cb7eb78d0",
   "name" : "Test Visit Date - Default Date",
   "time" : {
-    "start" : 1647419325846,
-    "stop" : 1647419334761,
-    "duration" : 8915
+    "start" : 1647419584195,
+    "stop" : 1647419593582,
+    "duration" : 9387
   },
   "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5df861df4975efa",
+  "name" : "Test Time Slot - Select Checkbox",
+  "time" : {
+    "start" : 1647419600772,
+    "stop" : 1647419600772,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d85008bc5ba200bf",
+  "name" : "Test Visit Date - Today Date",
+  "time" : {
+    "start" : 1647419600771,
+    "stop" : 1647419600771,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1d773338da5e2b91",
+  "name" : "Test Visit Date - Close Date Picker",
+  "time" : {
+    "start" : 1647419600771,
+    "stop" : 1647419600771,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a466531babfc60fe",
+  "name" : "Test Visit Date - Clear Date",
+  "time" : {
+    "start" : 1647419600771,
+    "stop" : 1647419600771,
+    "duration" : 0
+  },
+  "status" : "broken",
   "severity" : "normal"
 } ]

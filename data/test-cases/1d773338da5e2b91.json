@@ -1,11 +1,11 @@
 {
-  "uid" : "69a79a95da1c0fad",
-  "name" : "Test Time Slot - Select Checkbox",
-  "fullName" : "Test Time Slot - Select Checkbox",
-  "historyId" : "03ecfbfa966dc2c7eaa22117b69007ef",
+  "uid" : "1d773338da5e2b91",
+  "name" : "Test Visit Date - Close Date Picker",
+  "fullName" : "Test Visit Date - Close Date Picker",
+  "historyId" : "181e81513c96f7bfe5b91badd6ffb308",
   "time" : {
-    "start" : 1647419349289,
-    "stop" : 1647419349289,
+    "start" : 1647419600771,
+    "stop" : 1647419600771,
     "duration" : 0
   },
   "status" : "broken",
@@ -24,11 +24,11 @@
     "statusTrace" : "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `frg`. No request ever occurred.\n\nhttps://on.cypress.io/wait\n    at cypressErr (https://app.genesiscare.com.my/__cypress/runner/cypress_runner.js:176361:18)\n    at Object.errByPath (https://app.genesiscare.com.my/__cypress/runner/cypress_runner.js:176430:10)\n    at checkForXhr (https://app.genesiscare.com.my/__cypress/runner/cypress_runner.js:162559:92)\n    at https://app.genesiscare.com.my/__cypress/runner/cypress_runner.js:162582:28\n    at tryCatcher (https://app.genesiscare.com.my/__cypress/runner/cypress_runner.js:13022:23)\n    at Function.Promise.attempt.Promise.try (https://app.genesiscare.com.my/__cypress/runner/cypress_runner.js:10296:29)\n    at whenStable (https://app.genesiscare.com.my/__cypress/runner/cypress_runner.js:168785:63)\n    at https://app.genesiscare.com.my/__cypress/runner/cypress_runner.js:168282:14\n    at tryCatcher (https://app.genesiscare.com.my/__cypress/runner/cypress_runner.js:13022:23)\n    at Promise._settlePromiseFromHandler (https://app.genesiscare.com.my/__cypress/runner/cypress_runner.js:10957:31)\n    at Promise._settlePromise (https://app.genesiscare.com.my/__cypress/runner/cypress_runner.js:11014:18)\n    at Promise._settlePromise0 (https://app.genesiscare.com.my/__cypress/runner/cypress_runner.js:11059:10)\n    at Promise._settlePromises (https://app.genesiscare.com.my/__cypress/runner/cypress_runner.js:11139:18)\n    at Promise._fulfill (https://app.genesiscare.com.my/__cypress/runner/cypress_runner.js:11083:18)\n    at https://app.genesiscare.com.my/__cypress/runner/cypress_runner.js:12697:46\nFrom Your Spec Code:\n    at Context.eval (https://app.genesiscare.com.my/__cypress/tests?p=cypress/integration/testsuite.js:140:113)",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "757bbca4d956b8d2",
+      "uid" : "cf91c61cdd9c6796",
       "name" : "video recording",
-      "source" : "757bbca4d956b8d2.mp4",
+      "source" : "cf91c61cdd9c6796.mp4",
       "type" : "video/mp4",
-      "size" : 841316
+      "size" : 831526
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -58,6 +58,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "69a79a95da1c0fad.json",
+  "source" : "1d773338da5e2b91.json",
   "parameterValues" : [ ]
 }

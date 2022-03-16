@@ -1,11 +1,11 @@
 {
-  "uid" : "60ea96a9c275730e",
+  "uid" : "a466531babfc60fe",
   "name" : "Test Visit Date - Clear Date",
   "fullName" : "Test Visit Date - Clear Date",
   "historyId" : "55c06c5b84395fc94e737c57afbbeade",
   "time" : {
-    "start" : 1647419349288,
-    "stop" : 1647419349288,
+    "start" : 1647419600771,
+    "stop" : 1647419600771,
     "duration" : 0
   },
   "status" : "broken",
@@ -15,7 +15,7 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 1,
+  "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "testStage" : {
@@ -24,21 +24,15 @@
     "statusTrace" : "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `frg`. No request ever occurred.\n\nhttps://on.cypress.io/wait\n    at cypressErr (https://app.genesiscare.com.my/__cypress/runner/cypress_runner.js:176361:18)\n    at Object.errByPath (https://app.genesiscare.com.my/__cypress/runner/cypress_runner.js:176430:10)\n    at checkForXhr (https://app.genesiscare.com.my/__cypress/runner/cypress_runner.js:162559:92)\n    at https://app.genesiscare.com.my/__cypress/runner/cypress_runner.js:162582:28\n    at tryCatcher (https://app.genesiscare.com.my/__cypress/runner/cypress_runner.js:13022:23)\n    at Function.Promise.attempt.Promise.try (https://app.genesiscare.com.my/__cypress/runner/cypress_runner.js:10296:29)\n    at whenStable (https://app.genesiscare.com.my/__cypress/runner/cypress_runner.js:168785:63)\n    at https://app.genesiscare.com.my/__cypress/runner/cypress_runner.js:168282:14\n    at tryCatcher (https://app.genesiscare.com.my/__cypress/runner/cypress_runner.js:13022:23)\n    at Promise._settlePromiseFromHandler (https://app.genesiscare.com.my/__cypress/runner/cypress_runner.js:10957:31)\n    at Promise._settlePromise (https://app.genesiscare.com.my/__cypress/runner/cypress_runner.js:11014:18)\n    at Promise._settlePromise0 (https://app.genesiscare.com.my/__cypress/runner/cypress_runner.js:11059:10)\n    at Promise._settlePromises (https://app.genesiscare.com.my/__cypress/runner/cypress_runner.js:11139:18)\n    at Promise._fulfill (https://app.genesiscare.com.my/__cypress/runner/cypress_runner.js:11083:18)\n    at https://app.genesiscare.com.my/__cypress/runner/cypress_runner.js:12697:46\nFrom Your Spec Code:\n    at Context.eval (https://app.genesiscare.com.my/__cypress/tests?p=cypress/integration/testsuite.js:140:113)",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "54b404ffc10d0244",
-      "name" : "testsuite.js:2022-03-16T08:29:08.994Z",
-      "source" : "54b404ffc10d0244.png",
-      "type" : "image/png",
-      "size" : 108869
-    }, {
-      "uid" : "757bbca4d956b8d2",
+      "uid" : "cf91c61cdd9c6796",
       "name" : "video recording",
-      "source" : "757bbca4d956b8d2.mp4",
+      "source" : "cf91c61cdd9c6796.mp4",
       "type" : "video/mp4",
-      "size" : 841316
+      "size" : 831526
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
-    "attachmentsCount" : 2,
+    "attachmentsCount" : 1,
     "shouldDisplayMessage" : true,
     "hasContent" : true
   },
@@ -56,16 +50,7 @@
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ {
-      "uid" : "c15655ef285d045d",
-      "status" : "broken",
-      "statusDetails" : "Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `frg`. No request ever occurred.\n\nhttps://on.cypress.io/wait",
-      "time" : {
-        "start" : 1647419342716,
-        "stop" : 1647419349277,
-        "duration" : 6561
-      }
-    } ],
+    "retries" : [ ],
     "categories" : [ {
       "name" : "Test defects",
       "matchedStatuses" : [ ],
@@ -73,6 +58,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "60ea96a9c275730e.json",
+  "source" : "a466531babfc60fe.json",
   "parameterValues" : [ ]
 }
