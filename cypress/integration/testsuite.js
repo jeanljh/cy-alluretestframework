@@ -11,10 +11,17 @@ context('Test Suite - Add Visit', () => {
     const tmrDate = (tmr.getDate() + '/').padStart(3, '0') + (tmr.getMonth() + 1 + '/').padStart(3, '0') + tmr.getFullYear()
 
     beforeEach('Visit /add_visit', () => {
-        // cy.intercept('https://app.genesiscare.com.my/frg').as('frg')
-        cy.visit(Cypress.config().baseUrl + '/add_visit')
-        cy.wait(3000)
-        // .wait('@frg')
+        cy.intercept('https://app.genesiscare.com.my/frg').as('frg')
+        .visit(Cypress.config().baseUrl + '/add_visit')
+        .wait('@frg')
+    })
+
+    specify('Test Visit Date - Clear Date', () => {
+        cy.get('.date_div').as('picker').click()
+        cy.get('.picker__day--highlighted').click()
+        cy.get('@picker').click()
+        cy.get('.picker__button--clear').click({force: true})
+        .get('@picker').should('have.value', tmrDate)
     })
 
     specify('Test Visit Date - Default Date', () => {
@@ -25,18 +32,6 @@ context('Test Suite - Add Visit', () => {
         cy.get('.date_div').as('picker').click()
         .get('.picker__button--today').click()
         .get('@picker').should('have.value', todayDate)
-    })
-
-    specify('Test Visit Date - Clear Date', () => {
-        cy.get('.date_div').as('picker').click()
-        cy.get('.picker__day--highlighted').click()
-        cy.get('@picker').click()
-        cy.get('.picker__button--clear').click({force: true})
-        cy.wait(3000)
-        // .get('@picker').should('have.value', tmrDate)
-        cy.get('@picker').should(e => {
-            expect(e.val()).to.eq(tmrDate)
-        })
     })
 
     specify('Test Visit Date - Close Date Picker', () => {
