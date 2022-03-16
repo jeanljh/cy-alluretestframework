@@ -26,14 +26,14 @@ context('Test Suite - Add Visit', () => {
         .get('@picker').should('have.value', todayDate)
     })
 
-    specify.only('Test Visit Date - Clear Date', () => {
+    specify('Test Visit Date - Clear Date', () => {
         cy.get('.date_div').as('picker').click()
-        .get('.picker__day--highlighted').click()
-        .get('@picker').click()
-        .get('.picker__button--clear').click({force: true})
-        .wait(1000)
+        cy.get('.picker__day--highlighted').click()
+        cy.get('@picker').click()
+        cy.get('.picker__button--clear').click({force: true})
+        cy.wait(1000)
         // .get('@picker').should('have.value', tmrDate)
-        .get('@picker').should(e => {
+        cy.get('@picker').should(e => {
             expect(e.val()).to.eq(tmrDate)
         })
     })
