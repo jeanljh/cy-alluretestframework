@@ -1,99 +1,14 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
-    "name" : "Test Visit Date - Default Date",
-    "uid" : "a68db472e0a074e9",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1647426523356,
-      "stop" : 1647426532085,
-      "duration" : 8729
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Test Visit Date - Today Date",
-    "uid" : "b4fc62eb9ae63ddb",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1647426532162,
-      "stop" : 1647426540853,
-      "duration" : 8691
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
     "name" : "Test Visit Date - Clear Date",
-    "uid" : "dc32ac316c545621",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "failed",
-    "time" : {
-      "start" : 1647426540946,
-      "stop" : 1647426559478,
-      "duration" : 18532
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Test Visit Date - Close Date Picker",
-    "uid" : "8dfab13d4bf68de7",
+    "uid" : "3773ce5dd10c0cd9",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1647426559546,
-      "stop" : 1647426567095,
-      "duration" : 7549
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Test Visit Date - Select Date Picker",
-    "uid" : "e4d0e96cca98c526",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1647426567145,
-      "stop" : 1647426575422,
-      "duration" : 8277
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Test Time Slot - Select Checkbox",
-    "uid" : "cb55a0c0627f7758",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1647426575638,
-      "stop" : 1647426582484,
-      "duration" : 6846
+      "start" : 1647426862353,
+      "stop" : 1647426872733,
+      "duration" : 10380
     },
     "flaky" : false,
     "newFailed" : false,
