@@ -16,14 +16,6 @@ context('Test Suite - Add Visit', () => {
         .wait('@frg')
     })
 
-    specify('Test Visit Date - Clear Date', () => {
-        cy.get('.date_div').as('picker').click()
-        cy.get('.picker__day--highlighted').click()
-        cy.get('@picker').click()
-        cy.get('.picker__button--clear').click({force: true})
-        .get('@picker').should('have.value', tmrDate)
-    })
-
     specify('Test Visit Date - Default Date', () => {
         cy.get('.date_div').invoke('val').should('eq', tmrDate)
     })
@@ -32,6 +24,14 @@ context('Test Suite - Add Visit', () => {
         cy.get('.date_div').as('picker').click()
         .get('.picker__button--today').click()
         .get('@picker').should('have.value', todayDate)
+    })
+
+    specify('Test Visit Date - Clear Date', () => {
+        cy.get('.date_div').as('picker').click()
+        .get('.picker__day--highlighted').click()
+        .get('@picker').click()
+        .get('.picker__button--clear').click({force: true})
+        .get('@picker').should('have.value', tmrDate)
     })
 
     specify('Test Visit Date - Close Date Picker', () => {
