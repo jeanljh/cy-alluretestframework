@@ -2,5 +2,6 @@
     "baseUrl": "https://app.genesiscare.com.my",
     "defaultCommandTimeout": 10000,
     "viewportHeight": 1080,
-    "viewportWidth": 1920
+    "viewportWidth": 1920,
+    "requestTimeout": 10000
 }
