@@ -1,12 +1,12 @@
 {
-  "uid" : "3a8c8ffadb0d826",
+  "uid" : "8b3566698ca2378",
   "name" : "Test Visit Date - Select Date Picker",
   "fullName" : "Test Visit Date - Select Date Picker",
   "historyId" : "ede22ccab36642ac861c1e6b2236c96c",
   "time" : {
-    "start" : 1647429740782,
-    "stop" : 1647429746392,
-    "duration" : 5610
+    "start" : 1647612845796,
+    "stop" : 1647612851600,
+    "duration" : 5804
   },
   "status" : "passed",
   "flaky" : false,
@@ -21,649 +21,649 @@
     "steps" : [ {
       "name" : "Visit /add_visit",
       "time" : {
-        "start" : 1647429740783,
-        "stop" : 1647429745700,
-        "duration" : 4917
+        "start" : 1647612845797,
+        "stop" : 1647612850693,
+        "duration" : 4896
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "intercept (\"https://app.genesiscare.com.my/frg\")",
         "time" : {
-          "start" : 1647429740935,
-          "stop" : 1647429740937,
+          "start" : 1647612845829,
+          "stop" : 1647612845831,
           "duration" : 2
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "hasContent" : false,
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "as (\"frg\")",
         "time" : {
-          "start" : 1647429740937,
-          "stop" : 1647429740937,
+          "start" : 1647612845831,
+          "stop" : 1647612845831,
           "duration" : 0
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "hasContent" : false,
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "visit https://app.genesiscare.com.my/add_visit",
         "time" : {
-          "start" : 1647429740937,
-          "stop" : 1647429741693,
-          "duration" : 756
+          "start" : 1647612845831,
+          "stop" : 1647612846590,
+          "duration" : 759
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "hasContent" : false,
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "GET https://app.genesiscare.com.my/api/1.1/init/data?location=https://app.genesiscare.com.my/add_visit",
         "time" : {
-          "start" : 1647429741692,
-          "stop" : 1647429741692,
+          "start" : 1647612846590,
+          "stop" : 1647612846590,
           "duration" : 0
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "hasContent" : false,
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "stepsCount" : 0
-      }, {
-        "name" : "GET /api/1.1/init/data?location=https%3A%2F%2Fapp.genesiscare.com.my%2Fadd_visit",
-        "time" : {
-          "start" : 1647429741693,
-          "stop" : 1647429741693,
-          "duration" : 0
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ ],
-        "hasContent" : false,
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "wait @frg",
         "time" : {
-          "start" : 1647429741693,
-          "stop" : 1647429745699,
-          "duration" : 4006
+          "start" : 1647612846590,
+          "stop" : 1647612850692,
+          "duration" : 4102
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "hasContent" : false,
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "stepsCount" : 0
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 /api/1.1/init/data?location=https%3A%2F%2Fapp.genesiscare.com.my%2Fadd_visit",
+        "time" : {
+          "start" : 1647612850692,
+          "stop" : 1647612850692,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
       }, {
         "name" : "POST /bug/client_log",
         "time" : {
-          "start" : 1647429745699,
-          "stop" : 1647429745699,
+          "start" : 1647612850692,
+          "stop" : 1647612850692,
           "duration" : 0
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "hasContent" : false,
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "POST 200 /bug/client_log",
         "time" : {
-          "start" : 1647429745699,
-          "stop" : 1647429745699,
+          "start" : 1647612850692,
+          "stop" : 1647612850692,
           "duration" : 0
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "hasContent" : false,
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "POST 200 /elasticsearch/search",
         "time" : {
-          "start" : 1647429745699,
-          "stop" : 1647429745699,
+          "start" : 1647612850692,
+          "stop" : 1647612850692,
           "duration" : 0
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "hasContent" : false,
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "POST 200 /user/hi",
         "time" : {
-          "start" : 1647429745699,
-          "stop" : 1647429745699,
+          "start" : 1647612850692,
+          "stop" : 1647612850692,
           "duration" : 0
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "hasContent" : false,
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "POST 200 /elasticsearch/mget",
         "time" : {
-          "start" : 1647429745699,
-          "stop" : 1647429745699,
+          "start" : 1647612850692,
+          "stop" : 1647612850692,
           "duration" : 0
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "hasContent" : false,
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "POST 200 /user/m",
         "time" : {
-          "start" : 1647429745699,
-          "stop" : 1647429745699,
+          "start" : 1647612850692,
+          "stop" : 1647612850692,
           "duration" : 0
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "hasContent" : false,
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "POST 200 /elasticsearch/bulk_watch",
         "time" : {
-          "start" : 1647429745699,
-          "stop" : 1647429745699,
+          "start" : 1647612850692,
+          "stop" : 1647612850692,
           "duration" : 0
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "hasContent" : false,
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "POST 200 /user/apm",
         "time" : {
-          "start" : 1647429745699,
-          "stop" : 1647429745699,
+          "start" : 1647612850692,
+          "stop" : 1647612850692,
           "duration" : 0
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "hasContent" : false,
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
-        "name" : "POST /frg",
+        "name" : "POST 200 /frg",
         "time" : {
-          "start" : 1647429745699,
-          "stop" : 1647429745699,
+          "start" : 1647612850692,
+          "stop" : 1647612850692,
           "duration" : 0
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "hasContent" : false,
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : true,
+      "stepsCount" : 15,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 15
+      "hasContent" : true
     }, {
       "name" : "get .date_div",
       "time" : {
-        "start" : 1647429745701,
-        "stop" : 1647429745707,
-        "duration" : 6
+        "start" : 1647612850697,
+        "stop" : 1647612850743,
+        "duration" : 46
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     }, {
       "name" : "as (\"picker\")",
       "time" : {
-        "start" : 1647429745707,
-        "stop" : 1647429745707,
+        "start" : 1647612850743,
+        "stop" : 1647612850743,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1647429745707,
-        "stop" : 1647429745818,
-        "duration" : 111
+        "start" : 1647612850743,
+        "stop" : 1647612850900,
+        "duration" : 157
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     }, {
       "name" : "get .picker__select--year",
       "time" : {
-        "start" : 1647429745818,
-        "stop" : 1647429745834,
-        "duration" : 16
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0
-    }, {
-      "name" : "as (\"year\")",
-      "time" : {
-        "start" : 1647429745834,
-        "stop" : 1647429745835,
-        "duration" : 1
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0
-    }, {
-      "name" : "find option",
-      "time" : {
-        "start" : 1647429745835,
-        "stop" : 1647429745848,
-        "duration" : 13
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0
-    }, {
-      "name" : "assert expected **<option>** to contain text **'2022'**",
-      "time" : {
-        "start" : 1647429745848,
-        "stop" : 1647429745848,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "actual",
-        "value" : "2022"
-      }, {
-        "name" : "expected",
-        "value" : "2022"
-      } ],
-      "hasContent" : true,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0
-    }, {
-      "name" : "get @year",
-      "time" : {
-        "start" : 1647429745848,
-        "stop" : 1647429745854,
-        "duration" : 6
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0
-    }, {
-      "name" : "select 2022",
-      "time" : {
-        "start" : 1647429745854,
-        "stop" : 1647429746021,
-        "duration" : 167
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0
-    }, {
-      "name" : "get @year",
-      "time" : {
-        "start" : 1647429746021,
-        "stop" : 1647429746027,
-        "duration" : 6
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0
-    }, {
-      "name" : "find :selected",
-      "time" : {
-        "start" : 1647429746027,
-        "stop" : 1647429746036,
-        "duration" : 9
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0
-    }, {
-      "name" : "assert expected **<option>** to have text **'2022'**",
-      "time" : {
-        "start" : 1647429746036,
-        "stop" : 1647429746036,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "actual",
-        "value" : "2022"
-      }, {
-        "name" : "expected",
-        "value" : "2022"
-      } ],
-      "hasContent" : true,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0
-    }, {
-      "name" : "get .picker__select--month",
-      "time" : {
-        "start" : 1647429746036,
-        "stop" : 1647429746044,
-        "duration" : 8
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0
-    }, {
-      "name" : "as (\"month\")",
-      "time" : {
-        "start" : 1647429746044,
-        "stop" : 1647429746044,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0
-    }, {
-      "name" : "find option",
-      "time" : {
-        "start" : 1647429746044,
-        "stop" : 1647429746067,
-        "duration" : 23
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0
-    }, {
-      "name" : "not :disabled",
-      "time" : {
-        "start" : 1647429746067,
-        "stop" : 1647429746082,
-        "duration" : 15
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0
-    }, {
-      "name" : "assert expected **true** to be true",
-      "time" : {
-        "start" : 1647429746085,
-        "stop" : 1647429746085,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "actual",
-        "value" : "true"
-      }, {
-        "name" : "expected",
-        "value" : "true"
-      } ],
-      "hasContent" : true,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0
-    }, {
-      "name" : "get @month",
-      "time" : {
-        "start" : 1647429746085,
-        "stop" : 1647429746094,
-        "duration" : 9
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0
-    }, {
-      "name" : "select 5",
-      "time" : {
-        "start" : 1647429746094,
-        "stop" : 1647429746295,
-        "duration" : 201
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0
-    }, {
-      "name" : "get (\"@month\")",
-      "time" : {
-        "start" : 1647429746295
-      },
-      "status" : "unknown",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0
-    }, {
-      "name" : "get (\".picker__select--month\")",
-      "time" : {
-        "start" : 1647429746295
-      },
-      "status" : "unknown",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0
-    }, {
-      "name" : "find :selected",
-      "time" : {
-        "start" : 1647429746302,
-        "stop" : 1647429746314,
+        "start" : 1647612850900,
+        "stop" : 1647612850912,
         "duration" : 12
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     }, {
-      "name" : "assert expected **<option>** to have property **value** with the value **'5'**",
+      "name" : "as (\"year\")",
       "time" : {
-        "start" : 1647429746314,
-        "stop" : 1647429746314,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "actual",
-        "value" : "5"
-      }, {
-        "name" : "expected",
-        "value" : "5"
-      } ],
-      "hasContent" : true,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0
-    }, {
-      "name" : "assert expected **true** to be true",
-      "time" : {
-        "start" : 1647429746372,
-        "stop" : 1647429746372,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "actual",
-        "value" : "true"
-      }, {
-        "name" : "expected",
-        "value" : "true"
-      } ],
-      "hasContent" : true,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0
-    }, {
-      "name" : "get @picker",
-      "time" : {
-        "start" : 1647429746372,
-        "stop" : 1647429746391,
-        "duration" : 19
+        "start" : 1647612850912,
+        "stop" : 1647612850913,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     }, {
-      "name" : "assert expected **<input#P818924962.date_div.picker__input.picker__input--target>** to have value **16/06/2022**",
+      "name" : "find option",
       "time" : {
-        "start" : 1647429746391,
-        "stop" : 1647429746391,
+        "start" : 1647612850913,
+        "stop" : 1647612850939,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<option>** to contain text **'2022'**",
+      "time" : {
+        "start" : 1647612850939,
+        "stop" : 1647612850939,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "2022"
+      }, {
+        "name" : "expected",
+        "value" : "2022"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "get @year",
+      "time" : {
+        "start" : 1647612850940,
+        "stop" : 1647612850947,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "select 2022",
+      "time" : {
+        "start" : 1647612850947,
+        "stop" : 1647612851138,
+        "duration" : 191
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get @year",
+      "time" : {
+        "start" : 1647612851138,
+        "stop" : 1647612851153,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "find :selected",
+      "time" : {
+        "start" : 1647612851153,
+        "stop" : 1647612851169,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<option>** to have text **'2022'**",
+      "time" : {
+        "start" : 1647612851169,
+        "stop" : 1647612851169,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "2022"
+      }, {
+        "name" : "expected",
+        "value" : "2022"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "get .picker__select--month",
+      "time" : {
+        "start" : 1647612851169,
+        "stop" : 1647612851189,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "as (\"month\")",
+      "time" : {
+        "start" : 1647612851189,
+        "stop" : 1647612851189,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "find option",
+      "time" : {
+        "start" : 1647612851189,
+        "stop" : 1647612851224,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "not :disabled",
+      "time" : {
+        "start" : 1647612851224,
+        "stop" : 1647612851265,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **true** to be true",
+      "time" : {
+        "start" : 1647612851268,
+        "stop" : 1647612851268,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "true"
+      }, {
+        "name" : "expected",
+        "value" : "true"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "get @month",
+      "time" : {
+        "start" : 1647612851268,
+        "stop" : 1647612851281,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "select 5",
+      "time" : {
+        "start" : 1647612851281,
+        "stop" : 1647612851492,
+        "duration" : 211
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"@month\")",
+      "time" : {
+        "start" : 1647612851492
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\".picker__select--month\")",
+      "time" : {
+        "start" : 1647612851493
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "find :selected",
+      "time" : {
+        "start" : 1647612851503,
+        "stop" : 1647612851519,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<option>** to have property **value** with the value **'5'**",
+      "time" : {
+        "start" : 1647612851519,
+        "stop" : 1647612851519,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "5"
+      }, {
+        "name" : "expected",
+        "value" : "5"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "assert expected **true** to be true",
+      "time" : {
+        "start" : 1647612851579,
+        "stop" : 1647612851579,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "true"
+      }, {
+        "name" : "expected",
+        "value" : "true"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "get @picker",
+      "time" : {
+        "start" : 1647612851579,
+        "stop" : 1647612851600,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<input#P794893572.date_div.picker__input.picker__input--target>** to have value **16/06/2022**",
+      "time" : {
+        "start" : 1647612851600,
+        "stop" : 1647612851600,
         "duration" : 0
       },
       "status" : "passed",
@@ -676,17 +676,17 @@
         "name" : "expected",
         "value" : "16/06/2022"
       } ],
-      "hasContent" : true,
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0
+      "hasContent" : true
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
+    "stepsCount" : 42,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 42
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -706,6 +706,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3a8c8ffadb0d826.json",
+  "source" : "8b3566698ca2378.json",
   "parameterValues" : [ ]
 }
