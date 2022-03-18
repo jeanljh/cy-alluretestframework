@@ -4,7 +4,7 @@
   "description": "example of automation test framework design by using cypress and allure report.",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run --env allure=true",
+    "test": "cypress run",
     "test:full": "npm run allure:clear && npm run test && npm run allure:report",
     "allure:report": "allure generate allure-results --clean -o allure-report",
     "allure:clear": "if exist allure-results rmdir /q /s allure-results"
